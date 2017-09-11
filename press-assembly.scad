@@ -4,7 +4,7 @@ include <press-barrel.scad>
 include <press-plate.scad>
 
 color([0.5,0.5,0.7])
-translate([0,0,jack_top-jack_height-0.25/2])
+translate([0,0,jack_top-jack_height-plate_thickness/2])
 plate();
 
 translate([0,0,jack_top-jack_height-barrel_height])
