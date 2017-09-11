@@ -2,6 +2,7 @@ include <press-params.scad>
 
 module hoop()
 {
+    color([0.5,0.5,0.5])
     difference()
     {
 rotate_extrude()
